@@ -1,0 +1,37 @@
+name: clinic_doctor_interview
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  fpdart: ^1.1.1
+  get_it: ^8.1.0
+  google_fonts: ^6.2.1
+  isar: ^3.1.0+1
+  lottie: ^3.3.1
+  path_provider: ^2.1.5
+  smooth_page_indicator: ^1.2.1
+  supabase_flutter: ^2.9.1
+  isar_flutter_libs: any
+  intl: ^0.20.2
+  app_links: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.8
+  isar_generator: ^3.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image_login2.png
+    - assets/image_login1.png
+    - assets/image_login3.png
